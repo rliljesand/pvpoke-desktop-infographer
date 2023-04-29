@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         PvPoke Infographer
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/rliljesand/pvpoke-desktop-infographer
+// @version      1.0
 // @description  a quick jQuery hack for tampermonkey to make an infographic overview of the top ranked pvpoke pokemon for leagues. jQuery was already present on pvpoke.com.
 // @author       thePppnRppp
+// @updateURL    https://github.com/rliljesand/pvpoke-desktop-infographer/blob/main/pvpoke-infographer.js
+// @downloadURL  https://github.com/rliljesand/pvpoke-desktop-infographer/blob/main/pvpoke-infographer.js
+// @supportURL   https://github.com/rliljesand/pvpoke-desktop-infographer/issue
 // @match        https://pvpoke.com/rankings*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pvpoke.com
 // @grant        none
