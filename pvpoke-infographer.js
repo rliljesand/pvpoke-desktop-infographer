@@ -6,7 +6,7 @@
 // @author       thePppnRppp
 // @updateURL    https://github.com/rliljesand/pvpoke-desktop-infographer/blob/main/pvpoke-infographer.js
 // @downloadURL  https://github.com/rliljesand/pvpoke-desktop-infographer/blob/main/pvpoke-infographer.js
-// @supportURL   https://github.com/rliljesand/pvpoke-desktop-infographer/issue
+// @supportURL   https://github.com/rliljesand/pvpoke-desktop-infographer/issues
 // @match        https://pvpoke.com/rankings*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pvpoke.com
 // @grant        none
