@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PvPoke Infographer
 // @namespace    https://github.com/rliljesand/pvpoke-desktop-infographer
-// @version      1.0
+// @version      1.0.1
 // @description  a quick jQuery hack for tampermonkey to make an infographic overview of the top ranked pvpoke pokemon for leagues. jQuery was already present on pvpoke.com.
 // @author       thePppnRppp
 // @updateURL    https://github.com/rliljesand/pvpoke-desktop-infographer/blob/main/pvpoke-infographer.js
@@ -67,6 +67,7 @@
 
         $(document).on('click', '#infographer', function() {
             $(this).hide();
+            $(".details").removeClass("active");
             $("#main").css('max-width','100%');
             $("#main h1, #main .section p, .expand-label, #main .section .poke-search-container").hide();
             $(".rating-container").css(cssRatingContainer);
@@ -75,6 +76,7 @@
               $(this).html(htmlMoveDiv+$(this).html().replaceAll(",","</div> "+htmlMoveDiv)+"</div>"); // hack XD
             });
             $(".rankings-container .rank")
+                .removeClass("selected")
                 .css(cssRankBlock)
                 .each(function(index){
                 let wrapper = $(this);
