@@ -10,3 +10,11 @@ A simple jquery hack to help me remmeber the top meta when playing GBL
 1. Open Tampermonkey in your browser and click the Add Script tab (icon with a plus symbol)
 1. Paste the source into the script window and hit save
 1. Voila!
+
+### pvpoke-infographer.js
+#### Usage
+
+Navigate to the preferred league of interest, for example [Great League - Overall](https://pvpoke.com/rankings/all/1500/overall/).
+If the script is enabled, there should now be a "microchip" icon in the top navigation.
+When the league (list of Pokémon) is loaded, click the microchip to apply the changes.
+By default, only the top #35 Pokémon in the league and sort of your choice will be visible with images.
