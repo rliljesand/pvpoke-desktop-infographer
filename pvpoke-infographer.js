@@ -67,16 +67,14 @@
 
         $(document).on('click', '#infographer', function() {
             $(this).hide();
-            $(".details").removeClass("active");
             $("#main").css('max-width','100%');
-            $("#main h1, #main .section p, .expand-label, #main .section .poke-search-container").hide();
+            $("#main h1, #main .section p, .expand-label, #main .section .poke-search-container, .details").hide();
             $(".rating-container").css(cssRatingContainer);
             $(".moves .count").css(cssMoveCount)
             $(".moves").css(cssMoves).each(function(index){
               $(this).html(htmlMoveDiv+$(this).html().replaceAll(",","</div> "+htmlMoveDiv)+"</div>"); // hack XD
             });
-            $(".rankings-container .rank")
-                .removeClass("selected")
+            $(".rankings-container > .rank")
                 .css(cssRankBlock)
                 .each(function(index){
                 let wrapper = $(this);
@@ -96,9 +94,9 @@
                 }
                 name, slug = identifier.join("-");
                 slug += (region ? "-"+region : "");
-                if(index < 30){
+                if(index < 35){
                     $.get( "https://pokeapi.co/api/v2/pokemon/"+slug, function( data ) {
-                        let monImg = $("<img alt='"+name+"' src='"+data.sprites.other.home.front_default+"' />");
+                        let monImg = $("<img alt='"+name+"' src='"+data.sprites.other['official-artwork'].front_default+"' />");
                         monImg.css(cssMonImage);
                         if(shadow === true){
                             monImg.css(cssMonImageShadow)
