@@ -11,7 +11,7 @@ A simple jquery hack to help me remember the top meta when playing GBL
 1. Paste the source into the script window and hit save
 1. Voila!
 
-### pvpoke-infographer.js
+### [pvpoke-infographer.js](pvpoke-infographer.js)
 #### Usage
 
 1. Navigate to the preferred league of interest, for example [Great League - Overall](https://pvpoke.com/rankings/all/1500/overall/).
