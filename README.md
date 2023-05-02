@@ -1,6 +1,6 @@
 # PvPoke desktop infographer
 
-A simple jquery hack to help me remmeber the top meta when playing GBL
+A simple jquery hack to help me remember the top meta when playing GBL
 
 ## Installation
 
