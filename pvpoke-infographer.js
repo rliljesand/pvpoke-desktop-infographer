@@ -70,6 +70,7 @@
         };
         const cssRankingsContainer = {
             'margin-top':'0',
+            'max-height':'1024px'
         };
         const cssRating = {
             'width':'45px',
